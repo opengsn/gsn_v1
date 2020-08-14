@@ -652,7 +652,7 @@ func (relay *RelayServer) sendDataTransaction(desc string, f func(*bind.Transact
 	return
 }
 
-const maxGasPrice = 100e9
+const maxGasPrice = 500e9
 const retryGasPricePercentageIncrease = 20
 
 func (relay *RelayServer) resendTransaction(tx *types.Transaction) (signedTx *types.Transaction, err error) {
