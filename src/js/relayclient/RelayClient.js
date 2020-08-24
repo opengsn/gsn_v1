@@ -45,7 +45,7 @@ class RelayClient {
      *    calculateRelayScore - function to give a "score" to a relay, based on its properties:
      *          transactionFee, stake, unstakeDelay, relayUrl.
      *          return null to filter-out the relay completely
-     *          default function uses just trasnactionFee (gives highest score to lowest fee)
+     *          default function uses just transactionFee (gives highest score to lowest fee)
      *
      *    gaspriceFactorPercent - increase (in %) over current gasPrice average. default is 10%.
      *          Note that the resulting gasPrice must be accepted by relay (above its minGasPrice)
