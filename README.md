@@ -1,3 +1,6 @@
+> :warning: :warning: :warning: **WARNING:** this version of the GSN is no longer maintained.<br/>
+> Please use the maintained version of the GSN found here: https://github.com/opengsn/gsn
+
 # Tabookey Relay Network
 
 ## What is it?
